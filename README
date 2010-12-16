@@ -16,8 +16,7 @@ src/Client.java and then see what happens
 USAGE
 *****
 
-* adjust Client.java and ch/liip/jcr/davex/DavexClient.java  (for the
-connection parameters) in src/
+* adjust Client.java (for the connection parameters and your operations) in src/
 * Point to your jackrabbit-standalone-*.jar in buildandrun.sh
 * then run buildandrun.sh
 * and watch the traffic
