@@ -21,6 +21,13 @@ USAGE
 * then run buildandrun.sh
 * and watch the traffic
 
+davold BRANCH
+*************
+
+If you want to see, what it does without using the Batch/Diff stuff, use the "davold"
+branch. Currently Jackalope doesn't do the diff stuff, so that may be more useful.
+
+
 EXAMPLES
 ********
 
