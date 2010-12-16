@@ -8,7 +8,7 @@ import javax.jcr.SimpleCredentials;
 
 import ch.liip.jcr.davex.DavexClient;
 
-public class Test {
+public class Client {
 
 
 	public static void main(String[] args) {
