@@ -1,0 +1,27 @@
+A Java Davex client for sniffing the protocol
+*********************************************
+
+The HTTP protocol Jackrabbit is using in spi2davex (for communicating
+between client and server) was documented, but is quite outdated in 
+the meantime. The docs can be found here:
+https://fosswiki.liip.ch/display/jackalope/Downloads
+
+Therefore the best way to see, what jackrabbit is actually doing is 
+using a client (in java) which uses the davex layer and sniff that 
+(with eg. wireshark or Charles Proxy)
+
+Now you can write your JCR operations you want to implement in 
+src/Client.java and then see what happens
+
+USAGE
+*****
+
+* adjust Client.java and ch/liip/jcr/davex/DavexClient.java  (for the
+connection parameters) in src/
+* Point to your jackrabbit-standalone-*.jar in buildandrun.sh
+* then run buildandrun.sh
+* and watch the traffic
+
+
+
+
