@@ -21,6 +21,10 @@ USAGE
 * then run buildandrun.sh
 * and watch the traffic
 
+EXAMPLES
+********
 
+in the examples/ directory there are some examples, copy them to src/Client.java 
+and recompile
 
 
