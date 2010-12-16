@@ -5,11 +5,7 @@ import javax.jcr.Repository;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.SimpleCredentials;
-import javax.jcr.version.Version;
-
-import javax.jcr.version.VersionHistory;
 import javax.jcr.version.*;
-import javax.jcr.version.VersionManager;
 import ch.liip.jcr.davex.DavexClient;
 
 public class Client {
