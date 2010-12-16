@@ -29,6 +29,7 @@ public class Client {
 				t = root.addNode("foo");
 			}
 			t.addMixin("mix:versionable");
+			s.save();
 			VersionManager vm = s.getWorkspace().getVersionManager();
 			vm.checkout("/foo");
 			
